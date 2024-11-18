@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+</head>
+<body>
+    <div id="contact-form">
+        <h1>Message Me</h1>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <input type="email" id="email" name="email" placeholder="Email">
+        <input type="subject" id="subject" name="subject" placeholder="Subject">
+        <textarea id="message" name="message" placeholder="Message"></textarea>
+        <input type="submit" id="submit" value="Submit" onclick="submitMessage()">
+        <div id="alert"></div>
+    </div>
+   <script src="./main.js">
+   </script>
+</body>
+</html>
